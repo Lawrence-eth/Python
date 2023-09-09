@@ -27,3 +27,6 @@ if answertimes == 3 and abs(answera - price) > abs(answerb - price) and answera 
 elif answertimes == 3 and abs(answera - price) < abs(answerb - price) and answera != 9000 and answerb != 9000:
     print(f"Game over. {namea} wins! The correct price is {price} and {namea} guess closet to the price.")
 #當挑戰次數達上限顯示最接近答案的玩家獲勝及正確解答
+    
+#參考影片：https://youtu.be/KnGdj1cjOlY?si=bxxwFDCWyKgQqNuO
+#此專案相較影片範例增加顯示剩餘挑戰次數
